@@ -112,56 +112,6 @@ img {
 .link.current {
   color: var(--accent-color);
 }
-/* Footer styles */
-.footer {
-  background-color: var(--black-hero);
-  color: var(--primary-bgc);
-}
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.logo-part-footer {
-  color: var(--accent-color);
-}
-.footer .logo.link {
-  display: inline-block;
-  margin-right: 0;
-  margin-bottom: 20px;
-}
-.footer-item {
-  margin-bottom: 9px;
-}
-
-.contacts {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-.contacts-address,
-.contacts-mail,
-.contacts-phone {
-  color: inherit;
-}
-.contacts-mail,
-.contacts-phone {
-  opacity: 60%;
-}
-.contacts-address:hover,
-.contacts-address:focus,
-.contacts-mail:hover,
-.contacts-mail:focus,
-.contacts-phone:hover,
-.contacts-phone:focus {
-  color: var(--accent-color);
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 /* Головний заголовок */
 .hero {
@@ -256,7 +206,7 @@ img {
 }
 /* Наша команда */
 .team {
-  background-color: var(--primary-bgc);
+  background-color: var(--team-bg);
 }
 .team-list {
   display: flex;
@@ -347,4 +297,54 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--grey-header);
+}
+
+/* Footer styles */
+.footer {
+  background-color: var(--black-hero);
+  color: var(--primary-bgc);
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo-part-footer {
+  color: var(--accent-color);
+}
+.footer .logo.link {
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+.footer-item {
+  margin-bottom: 9px;
+}
+
+.contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.contacts-address,
+.contacts-mail,
+.contacts-phone {
+  color: inherit;
+}
+.contacts-mail,
+.contacts-phone {
+  opacity: 60%;
+}
+.contacts-address:hover,
+.contacts-address:focus,
+.contacts-mail:hover,
+.contacts-mail:focus,
+.contacts-phone:hover,
+.contacts-phone:focus {
+  color: var(--accent-color);
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
