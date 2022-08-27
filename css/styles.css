@@ -15,15 +15,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--black-link);
 }
-.hero {
-  background-color: var(--black-hero);
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-.section {
-  padding-top: 94px;
-}
 
 .link {
   text-decoration: none;
@@ -129,6 +120,10 @@ img {
   color: var(--accent-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* Головний заголовок */
 .hero {
   background-color: var(--black-hero);
@@ -218,7 +213,8 @@ img {
   justify-content: space-between;
 }
 .work {
-  padding-top: 0;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 /* Наша команда */
 .team {
@@ -228,6 +224,7 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  padding-bottom: 94px;
 }
 .team-img {
 }
@@ -238,7 +235,7 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 10px;
-  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .team-place {
   font-family: "Roboto";
