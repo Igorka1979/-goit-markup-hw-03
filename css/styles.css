@@ -215,9 +215,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.work {
-  padding-top: 0px;
-}
+
 /* Наша команда */
 .team {
   background-color: var(--team-bg);
