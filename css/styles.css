@@ -175,6 +175,9 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
+.features {
+  padding-bottom: 0;
+}
 .list-features {
   display: flex;
   justify-content: space-between;
@@ -213,8 +216,7 @@ img {
   justify-content: space-between;
 }
 .work {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-top: 0px;
 }
 /* Наша команда */
 .team {
@@ -224,7 +226,7 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  padding-bottom: 94px;
+  padding: 0px;
 }
 .team-img {
 }
